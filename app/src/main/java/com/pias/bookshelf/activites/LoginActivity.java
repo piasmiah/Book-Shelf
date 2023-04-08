@@ -41,15 +41,13 @@ public class LoginActivity extends AppCompatActivity {
         binding = ActivityLoginBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        //init firebaseauth
+        //init firebase auth
         firebaseAuth = FirebaseAuth.getInstance();
 
         //init progressbar apps
         progressDialog = new ProgressDialog(this);
         progressDialog.setTitle("Please Wait");
         progressDialog.setCanceledOnTouchOutside(false);
-
-
 
         //handle click, go to the register
         binding.noAccountTv.setOnClickListener(new View.OnClickListener() {
@@ -68,6 +66,14 @@ public class LoginActivity extends AppCompatActivity {
                 validUserdata();
             }
         });
+
+        //handle click, open forgot password activity
+        binding.forgotTv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(LoginActivity.this, ForgotPasswordActivity.class));
+            }
+        });
     }
 
     String email = "",password ="";
@@ -78,7 +84,7 @@ public class LoginActivity extends AppCompatActivity {
         email = binding.emailEt.getText().toString().trim();
         password = binding.passwordEt.getText().toString().trim();
 
-        // valided data
+        // validate data
         if(!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
             Toast.makeText(getApplicationContext(), "Invalid Email Pattern...!", Toast.LENGTH_SHORT).show();
         }
@@ -96,7 +102,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private void loginUser() {
         // show progress
-        progressDialog.setTitle("Loging in...!");
+        progressDialog.setTitle("Logging in...!");
         progressDialog.show();
 
         //login user
@@ -104,7 +110,7 @@ public class LoginActivity extends AppCompatActivity {
                 .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
                     @Override
                     public void onSuccess(AuthResult authResult) {
-                   //login successfull, check if user is user or admin
+                   //login successful, check if user is user or admin
                    checkUser();
 
                     }
@@ -117,9 +123,6 @@ public class LoginActivity extends AppCompatActivity {
 
                     }
                 });
-
-
-
     }
 
     private void checkUser() {

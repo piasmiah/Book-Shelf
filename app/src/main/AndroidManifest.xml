@@ -16,49 +16,52 @@
         android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
         android:usesCleartextTraffic="true">
         <activity
-            android:name="com.pias.bookshelf.activites.AboutUsActivity"
+            android:name=".activites.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activites.AboutUsActivity"
             android:exported="true" />
         <activity
-            android:name="com.pias.bookshelf.activites.ProfileEditActivity"
+            android:name=".activites.ProfileEditActivity"
             android:exported="true" />
         <activity
-            android:name="com.pias.bookshelf.activites.ProfileActivity"
+            android:name=".activites.ProfileActivity"
             android:exported="true" />
         <activity
-            android:name="com.pias.bookshelf.activites.PdfViewActivity"
+            android:name=".activites.PdfViewActivity"
             android:exported="true" />
         <activity
-            android:name="com.pias.bookshelf.activites.PdfDetailActivity"
+            android:name=".activites.PdfDetailActivity"
             android:exported="true" />
         <activity
-            android:name="com.pias.bookshelf.activites.PdfEditActivity"
+            android:name=".activites.PdfEditActivity"
             android:exported="true" />
         <activity
-            android:name="com.pias.bookshelf.activites.PdfListAdminActivity"
+            android:name=".activites.PdfListAdminActivity"
             android:exported="true" />
         <activity
-            android:name="com.pias.bookshelf.activites.PdfAddActivity"
+            android:name=".activites.PdfAddActivity"
             android:exported="true" />
         <activity
-            android:name="com.pias.bookshelf.activites.CategoryAddActivity"
+            android:name=".activites.CategoryAddActivity"
             android:exported="true" />
         <activity
-            android:name="com.pias.bookshelf.activites.DashboardUserActivity"
+            android:name=".activites.DashboardUserActivity"
             android:exported="true" />
         <activity
-            android:name="com.pias.bookshelf.activites.DashboardAdminActivity"
+            android:name=".activites.DashboardAdminActivity"
             android:exported="true" />
         <activity
-            android:name="com.pias.bookshelf.activites.LoginActivity"
+            android:name=".activites.LoginActivity"
             android:exported="true" />
         <activity
-            android:name="com.pias.bookshelf.activites.RegisterActivity"
+            android:name=".activites.RegisterActivity"
             android:exported="true" />
         <activity
-            android:name="com.pias.bookshelf.activites.DashBoardActivity"
+            android:name=".activites.DashBoardActivity"
             android:exported="true" />
         <activity
-            android:name="com.pias.bookshelf.activites.SplashActivity"
+            android:name=".activites.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
