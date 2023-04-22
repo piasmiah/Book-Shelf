@@ -31,7 +31,7 @@
         android:text="Please Log In"
         android:textColor="@color/white"
         android:textSize="28sp"
-        android:fontFamily="sans-serif-condensed"
+        android:fontFamily="@font/roboto_slab"
         />
     </RelativeLayout>
 
@@ -62,6 +62,7 @@
                     android:drawableStart="@drawable/ic_email_gray"
                     android:drawablePadding="10dp"
                     android:hint="Email"
+                    android:fontFamily="@font/roboto_slab"
                     android:inputType="textEmailAddress"
                     android:padding="10dp"
                     android:textColorHint="@color/gray1"
@@ -90,6 +91,7 @@
                     android:drawableStart="@drawable/ic_lock_gray"
                     android:drawablePadding="10dp"
                     android:hint="password"
+                    android:fontFamily="@font/roboto_slab"
                     android:inputType="textPassword"
                     android:padding="10dp"
                     android:textColorHint="@color/gray1"
@@ -103,6 +105,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/passwordTil"
                 android:text="Forget Password"
+                android:fontFamily="@font/roboto_slab"
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="5dp"
                 android:padding="5dp"
@@ -118,13 +121,13 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/forgotTv"
                 android:layout_marginTop="10dp"
+                app:backgroundTint="@null"
                 android:background="@drawable/shape_button01"
                 android:padding="10dp"
-                android:fontFamily="sans-serif-condensed"
+                android:fontFamily="@font/roboto_slab"
                 android:text="Log in"
-                android:textAllCaps="false"
                 android:textColor="@color/white"
-                android:textSize="15sp"
+                android:textSize="18sp"
                 />
 
         </RelativeLayout>
@@ -139,6 +142,7 @@
         android:layout_centerHorizontal="true"
         android:padding="10dp"
         android:text="@string/new_user_signup"
+        android:fontFamily="@font/roboto_slab"
         android:textSize="18dp"
         android:textColor="@color/black"
         />

@@ -23,8 +23,7 @@
             android:text="@string/category_title"
             android:layout_weight="1"
             android:textColor="@color/black"
-
-            android:fontFamily="sans-serif-condensed"
+            android:fontFamily="@font/roboto_slab"
 
             />
 

@@ -2,7 +2,7 @@
     <string name="app_name">Book Shelf</string>
     <string name="new_user_signup">New user?<b> Sign-up</b></string>
     <string name="add_books_category">(+) Add Books Category</string>
-    <string name="university_name">University Name</string>
+    <string name="university_name">Organization Name</string>
     <string name="category_title">Category Title</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

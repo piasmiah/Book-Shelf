@@ -35,11 +35,10 @@
             android:layout_below="@+id/iconTv"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
-            android:fontFamily="sans-serif-condensed"
+            android:fontFamily="@font/roboto_slab"
             android:textSize="28sp"
             android:text="Add a New Category"
             android:textColor="@color/white"
-            android:textStyle="bold"
             />
     </RelativeLayout>
 
@@ -60,6 +59,7 @@
             android:drawableStart="@drawable/ic_category_gray"
             android:drawablePadding="10dp"
             android:hint="Category Title"
+            android:fontFamily="@font/roboto_slab"
             android:inputType="textPersonName|textCapWords"
             android:padding="10dp"
             android:textColor="@color/black"
@@ -75,18 +75,12 @@
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
         android:layout_marginTop="20dp"
+        app:backgroundTint="@null"
         android:background="@drawable/shape_button01"
         android:layout_below="@+id/categoryTil"
         android:text="Upgrade"
-        android:textAllCaps="false"
-        android:fontFamily="sans-serif-condensed"
-        android:textStyle="bold"
-        android:textSize="15sp"
+        android:fontFamily="@font/roboto_slab"
+        android:textSize="20sp"
         android:textColor="@color/white"
-
         />
-
-
-
-
 </RelativeLayout>

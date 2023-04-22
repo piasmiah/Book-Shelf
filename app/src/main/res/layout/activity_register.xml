@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/iconTv"
             android:layout_centerHorizontal="true"
-            android:fontFamily="sans-serif-condensed"
+            android:fontFamily="@font/roboto_slab"
             android:text="Create New Account"
             android:textColor="@color/white"
             android:textSize="28sp" />
@@ -75,7 +75,8 @@
                     android:hint="Name"
                     android:inputType="textPersonName|textCapWords"
                     android:padding="10dp"
-                    android:textColorHint="@color/gray1" />
+                    android:textColorHint="@color/gray1"
+                    android:fontFamily="@font/roboto_slab"/>
             </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -96,6 +97,7 @@
                     android:drawableStart="@drawable/ic_email_gray"
                     android:drawablePadding="10dp"
                     android:hint="Email"
+                    android:fontFamily="@font/roboto_slab"
                     android:inputType="textEmailAddress"
                     android:padding="10dp"
                     android:textColorHint="@color/gray1" />
@@ -119,7 +121,8 @@
                     android:background="@drawable/shape_edittext01"
                     android:drawableStart="@drawable/ic_lock_gray"
                     android:drawablePadding="10dp"
-                    android:hint="password"
+                    android:hint="Password"
+                    android:fontFamily="@font/roboto_slab"
                     android:inputType="textPassword"
                     android:padding="10dp"
                     android:textColorHint="@color/gray1" />
@@ -143,7 +146,8 @@
                     android:background="@drawable/shape_edittext01"
                     android:drawableStart="@drawable/ic_lock_gray"
                     android:drawablePadding="10dp"
-                    android:hint="confirm password"
+                    android:hint="Confirm Password"
+                    android:fontFamily="@font/roboto_slab"
                     android:inputType="textPassword"
                     android:padding="10dp"
                     android:textColorHint="@color/gray1" />
@@ -165,9 +169,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/shape_edittext01"
-                    android:drawableStart="@drawable/ic_university_gray"
+                    android:drawableStart="@drawable/ic_organization"
                     android:drawablePadding="10dp"
                     android:hint="@string/university_name"
+                    android:fontFamily="@font/roboto_slab"
                     android:inputType="text"
                     android:padding="10dp"
                     android:textColorHint="@color/gray1" />
@@ -182,7 +187,8 @@
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="5dp"
                 android:padding="5dp"
-                android:text="Forget Password"
+                android:text="Forgot Password"
+                android:fontFamily="@font/roboto_slab"
                 android:textColor="@color/gray2" />
 
 
@@ -195,12 +201,12 @@
                 android:layout_below="@id/forgotTv"
                 android:layout_marginTop="10dp"
                 android:padding="10dp"
+                app:backgroundTint="@null"
                 android:background="@drawable/shape_button01"
-                android:fontFamily="sans-serif-condensed"
+                android:fontFamily="@font/roboto_slab"
                 android:text="Register"
-                android:textAllCaps="false"
                 android:textColor="@color/white"
-                android:textSize="15sp" />
+                android:textSize="18sp" />
 
         </RelativeLayout>
 

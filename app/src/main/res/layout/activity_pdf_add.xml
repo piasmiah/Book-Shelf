@@ -39,7 +39,7 @@
             android:layout_below="@id/iconTv"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
-            android:fontFamily="sans-serif-condensed"
+            android:fontFamily="@font/roboto_slab"
             android:text="Add a New Book"
             android:textColor="@color/white"
             android:textSize="28sp" />
@@ -72,8 +72,9 @@
             android:layout_height="wrap_content"
             android:background="@drawable/shape_edittext01"
             android:hint="Book Title"
+            android:fontFamily="@font/roboto_slab"
             android:inputType="textPersonName|textCapWords"
-            android:drawableStart="@drawable/ic_bookspdf_gray"
+            android:drawableStart="@drawable/ic_book_title"
             android:drawablePadding="10dp"
             android:padding="10dp"
             android:textColor="@color/black"
@@ -100,8 +101,9 @@
             android:layout_height="wrap_content"
             android:background="@drawable/shape_edittext01"
             android:hint="Book Description"
+            android:fontFamily="@font/roboto_slab"
             android:inputType="textMultiLine|textCapSentences"
-            android:drawableStart="@drawable/ic_bookspdf_gray"
+            android:drawableStart="@drawable/ic_book_description"
             android:drawablePadding="10dp"
             android:padding="10dp"
             android:textColor="@color/black"
@@ -126,9 +128,10 @@
         android:drawablePadding="10dp"
         android:gravity="center_vertical"
         android:hint="Books Category"
+        android:fontFamily="@font/roboto_slab"
         android:padding="10dp"
         android:textColor="@color/black"
-        android:textColorHint="@color/gray2"
+        android:textColorHint="@color/gray1"
         android:textSize="16sp" />
 
     <!-- Button Upload -->
@@ -141,12 +144,12 @@
         android:layout_marginEnd="20dp"
         android:layout_marginTop="10dp"
         android:padding="10dp"
+        app:backgroundTint="@null"
         android:background="@drawable/shape_button01"
         android:text="Upload"
-        android:textAllCaps="false"
         android:textColor="@color/white"
-        android:fontFamily="sans-serif-condensed"
-        android:textSize="16sp"
+        android:fontFamily="@font/roboto_slab"
+        android:textSize="18sp"
         />
 
 </RelativeLayout>

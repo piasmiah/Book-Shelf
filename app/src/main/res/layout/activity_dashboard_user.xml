@@ -30,10 +30,9 @@
             android:layout_below="@id/profileBtn"
             android:layout_centerVertical="true"
             android:layout_marginStart="10dp"
-            android:fontFamily="sans-serif-condensed"
+            android:fontFamily="@font/roboto_slab"
             android:text="User Profile"
-            android:textColor="@color/white"
-            android:textStyle="bold" />
+            android:textColor="@color/white"/>
 
 
         <TextView
@@ -42,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-            android:fontFamily="sans-serif-condensed"
+            android:fontFamily="@font/roboto_slab"
             android:text="User Dashboard"
             android:textColor="@color/white"
             android:textStyle="bold" />
@@ -53,7 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/titleTv"
             android:layout_centerHorizontal="true"
-            android:fontFamily="sans-serif-condensed"
+            android:fontFamily="@font/roboto_slab"
             android:text="abc@gmail.com"
             android:textColor="@color/white"
             android:textStyle="bold" />

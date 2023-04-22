@@ -24,8 +24,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="Welcome To Book Shelf"
-        android:textColor="@color/black"
-        android:textSize="16sp"/>
+        android:fontFamily="@font/roboto_slab"
+        android:textColor="#feb209"
+        android:textSize="20sp"/>
 
 
     <Button
@@ -34,8 +35,11 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/skipBtn"
         android:layout_marginBottom="10dp"
+        app:backgroundTint="@null"
         android:background="@drawable/shape_button01"
         android:text="Log In"
+        android:fontFamily="@font/roboto_slab"
+        android:textSize="20sp"
         android:textAllCaps="false" />
 
     <Button
@@ -43,10 +47,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        app:backgroundTint="@null"
         android:background="@drawable/shape_button02"
-        android:fontFamily="sans-serif-condensed"
+        android:fontFamily="@font/roboto_slab"
         android:text="About Us"
         android:textAllCaps="false"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
 
 </RelativeLayout>

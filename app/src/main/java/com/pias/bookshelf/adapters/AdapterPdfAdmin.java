@@ -32,7 +32,7 @@ public class AdapterPdfAdmin extends RecyclerView.Adapter<AdapterPdfAdmin.Holder
     //context
     private Context context;
 
-    //arraylist to hold list of data of type Modelclass
+    //arraylist to hold list of data of type Model class
     public ArrayList<ModelPdf> pdfArrayList, filterList;
 
     //row_pdf_admin view binding
@@ -42,10 +42,10 @@ public class AdapterPdfAdmin extends RecyclerView.Adapter<AdapterPdfAdmin.Holder
 
     private static final String TAG ="PDF_ADAPTER_TAG";
 
-    //progreess
+    //progress
     private ProgressDialog progressDialog;
 
-    //contructor of avobe
+    //constructor of above
     public AdapterPdfAdmin(Context context, ArrayList<ModelPdf> pdfArrayList) {
         this.context = context;
         this.pdfArrayList = pdfArrayList;
@@ -86,18 +86,18 @@ public class AdapterPdfAdmin extends RecyclerView.Adapter<AdapterPdfAdmin.Holder
         holder.descriptionTv.setText(description);
         holder.dateTv.setText(formattedDate);
 
-        //we will need these functions many time, so insteady of writting again and asain move them to MyApplication class and make static to use later
+        //we will need these functions many time, so instead of writing again and again move them to MyApplication class and make static to use later
 
 
 
         // load further details like category , pdf from url, pdf size in separate functions
-       /* all function move on MyApplication
+        //all function move on MyApplication
 
-        //loadCategory(model, holder);
+        // loadCategory(model, holder);
        // loadPdfFromUrl(model,holder);
        // loadPdfSize(model, holder);
 
-        */
+
 
         MyApplication.loadCategory(
                 ""+categoryId,
@@ -124,7 +124,7 @@ public class AdapterPdfAdmin extends RecyclerView.Adapter<AdapterPdfAdmin.Holder
         );
 
 
-        // handle click, show dialog with options pdf fromurl , pdf size in separate functions
+        // handle click, show dialog with options pdf from url , pdf size in separate functions
         holder.moreBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
