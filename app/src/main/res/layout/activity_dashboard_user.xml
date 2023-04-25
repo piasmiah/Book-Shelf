@@ -81,6 +81,8 @@
         android:layout_marginTop="5dp"
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="5dp"
+        app:tabTextColor="#288ba8"
+        android:textAllCaps="false"
         android:background="@android:color/transparent"
         app:tabBackground="@drawable/tab_selector"
         app:tabIndicatorFullWidth="false"

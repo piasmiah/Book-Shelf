@@ -13,8 +13,7 @@
         android:background="@android:color/transparent"
         android:padding="5dp"
         android:src="@drawable/ic_back"
-        android:tint="@color/black"
-        />
+        android:tint="#288ba8" />
 
     <TextView
         android:id="@id/titleTv"
@@ -24,7 +23,7 @@
         android:padding="5dp"
         android:text="Add Comment"
         android:textAlignment="center"
-        android:textColor="@color/design_default_color_primary"
+        android:textColor="#288ba8"
         android:textStyle="bold"
         android:textSize="16sp"
         />
@@ -57,9 +56,11 @@
         android:layout_below="@id/commentTil"
         android:layout_marginTop="20dp"
         android:padding="10dp"
+        app:backgroundTint="@null"
         android:background="@drawable/shape_button01"
         android:fontFamily="@font/roboto_slab"
         android:text="Submit"
-        android:textAllCaps="false"
-        android:textColor="@color/white" />
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
 </RelativeLayout>

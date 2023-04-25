@@ -19,6 +19,7 @@
         android:background="@drawable/shape_edittext01"
         android:drawableStart="@drawable/ic_search_gray"
         android:hint="Search"
+        android:fontFamily="@font/roboto_slab"
         android:padding="10dp"
         android:textColorHint="@color/gray1"
         />

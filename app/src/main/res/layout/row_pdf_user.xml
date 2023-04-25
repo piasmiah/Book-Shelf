@@ -18,8 +18,8 @@
             android:layout_width="100dp"
             android:layout_height="140dp"
             android:layout_marginEnd="5dp"
-            android:background="@color/gray2"
-            >
+            android:background="@color/gray2">
+
             <!-- PDF View -->
             <com.github.barteksc.pdfviewer.PDFView
                 android:id="@+id/pdfView"
@@ -43,7 +43,8 @@
             android:layout_height="wrap_content"
             android:layout_toEndOf="@+id/pdfRl"
             android:maxLines="1"
-            android:text="Book Title" />
+            android:text="Book Title"
+            android:fontFamily="@font/roboto_slab"/>
 
         <!--android:layout_toStartOf="@id/moreBtn"-->
 
@@ -57,7 +58,8 @@
             android:layout_toEndOf="@+id/pdfRl"
             android:ellipsize="end"
             android:maxLines="4"
-            android:text="Book Description" />
+            android:text="Book Description"
+            android:fontFamily="@font/roboto_slab"/>
 
         <TextView
             android:id="@+id/categoryTv"
@@ -68,6 +70,7 @@
             android:layout_alignParentBottom="true"
             android:maxLines="1"
             android:text="Category"
+            android:fontFamily="@font/roboto_slab"
             android:layout_marginEnd="30dp"
             />
 
@@ -91,7 +94,8 @@
             android:layout_toStartOf="@id/categoryTv"
             android:maxLines="1"
             android:text="dd/MM/yyyy"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:fontFamily="@font/roboto_slab"/>
 
 
         <!--Remove this for user-->
@@ -105,4 +109,5 @@
             android:src="@drawable/ic_more_black"
             />-->
     </RelativeLayout>
+
 </androidx.cardview.widget.CardView>

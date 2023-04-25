@@ -10,17 +10,18 @@
     tools:context=".activites.SplashActivity">
 
    <ImageView
-       android:layout_width="180dp"
-       android:layout_height="180dp"
+       android:layout_width="190dp"
+       android:layout_height="190dp"
        android:src="@drawable/book"
        />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Book Shelf"
-        android:textSize="25sp"
-        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textColor="#288ba8"
+        android:textStyle="bold"
         android:layout_marginTop="10dp"
-        android:fontFamily="sans-serif-condensed"
+        android:fontFamily="@font/roboto_slab"
         />
 </LinearLayout>

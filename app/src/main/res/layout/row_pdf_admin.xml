@@ -43,7 +43,8 @@
             android:layout_toStartOf="@id/moreBtn"
             android:layout_toEndOf="@+id/pdfRl"
             android:maxLines="1"
-            android:text="Book Title" />
+            android:text="Book Title"
+            android:fontFamily="@font/roboto_slab"/>
 
         <TextView
             android:id="@+id/descriptionTv"
@@ -55,7 +56,8 @@
             android:layout_toEndOf="@+id/pdfRl"
             android:ellipsize="end"
             android:maxLines="4"
-            android:text="Book Description" />
+            android:text="Book Description"
+            android:fontFamily="@font/roboto_slab"/>
 
         <TextView
             android:id="@+id/categoryTv"
@@ -66,6 +68,7 @@
             android:layout_alignParentBottom="true"
             android:maxLines="1"
             android:text="Category"
+            android:fontFamily="@font/roboto_slab"
             android:layout_marginEnd="30dp"
             />
 
@@ -85,11 +88,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="140dp"
+            android:layout_marginEnd="139dp"
             android:layout_toStartOf="@id/categoryTv"
             android:maxLines="1"
             android:text="dd/MM/yyyy"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:fontFamily="@font/roboto_slab"/>
 
         <ImageButton
             android:id="@+id/moreBtn"
@@ -102,4 +106,5 @@
 
             />
     </RelativeLayout>
+
 </androidx.cardview.widget.CardView>

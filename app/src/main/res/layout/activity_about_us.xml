@@ -29,7 +29,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_slab"
                     android:text="@string/about_this_apps"
-                    android:textColor="@color/design_default_color_primary"
+                    android:textColor="#288ba8"
                     android:textSize="22sp" />
 
                 <TextView
@@ -39,6 +39,7 @@
                     android:layout_marginTop="5dp"
                     android:fontFamily="@font/roboto_slab"
                     android:text="@string/about_text"
+                    android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18dp" />
             </LinearLayout>
@@ -62,7 +63,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_slab"
                     android:text="@string/copy_right"
-                    android:textColor="@color/design_default_color_primary"
+                    android:textColor="#288ba8"
                     android:textSize="22sp" />
 
                 <TextView
@@ -72,6 +73,7 @@
                     android:layout_marginTop="5dp"
                     android:fontFamily="@font/roboto_slab"
                     android:text="@string/copyright"
+                    android:gravity="center"
                     android:textColor="@color/black"
                     android:textSize="18dp" />
 
@@ -98,7 +100,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_slab"
                     android:text="@string/dev_bio"
-                    android:textColor="@color/design_default_color_primary"
+                    android:textColor="#288ba8"
                     android:textSize="22sp" />
 
                 <TextView
@@ -108,6 +110,7 @@
                     android:layout_marginTop="5dp"
                     android:fontFamily="@font/roboto_slab"
                     android:text="@string/Bio_Data"
+                    android:gravity="center"
                     android:textColor="@color/black"
                     android:textSize="18dp" />
 
@@ -133,7 +136,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_slab"
                     android:text="Version:-"
-                    android:textColor="@color/design_default_color_primary"
+                    android:textColor="#288ba8"
                     android:textSize="22sp" />
 
                 <TextView
@@ -143,6 +146,7 @@
                     android:layout_marginTop="5dp"
                     android:fontFamily="@font/roboto_slab"
                     android:text="1.0"
+                    android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18dp" />
             </LinearLayout>
@@ -155,7 +159,7 @@
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/roboto_slab"
                 android:text="all right reserved Trodev"
-                android:textColor="@color/design_default_color_primary"
+                android:textColor="#288ba8"
                 android:textSize="15dp" />
 
         </LinearLayout>

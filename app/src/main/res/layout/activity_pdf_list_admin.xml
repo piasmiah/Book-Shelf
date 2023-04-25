@@ -30,6 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Books"
+            android:fontFamily="@font/roboto_slab"
             android:layout_marginTop="8dp"
             android:textStyle="bold"
             android:textColor="@color/white"
@@ -45,9 +46,10 @@
             android:layout_below="@id/titleTv"
             android:layout_centerHorizontal="true"
             android:text="Category"
+            android:fontFamily="@font/roboto_slab"
             android:textColor="@color/white"
+            android:textStyle="bold"/>
 
-            />
     </RelativeLayout>
 
     <!-- Search -->
@@ -64,6 +66,7 @@
         android:drawableStart="@drawable/ic_search_gray"
         android:drawablePadding="10dp"
         android:hint="Search Book"
+        android:fontFamily="@font/roboto_slab"
         android:padding="10dp"
         android:textColor="@color/black"
         android:textColorHint="@color/gray2" />

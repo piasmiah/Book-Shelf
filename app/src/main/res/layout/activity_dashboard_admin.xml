@@ -142,8 +142,7 @@
             app:tint="@color/white"
             app:fabCustomSize="50dp"
             app:backgroundTint="@null"
-            android:backgroundTint="#feb209
-"
+            android:backgroundTint="#288ba8"
             />
 
     </LinearLayout>

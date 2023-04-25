@@ -30,9 +30,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Edit Profile"
+            android:fontFamily="@font/roboto_slab"
             android:layout_marginTop="10dp"
             android:textColor="@color/white"
-            android:textSize="26sp"
+            android:textSize="28sp"
             android:layout_centerHorizontal="true"
             />
 
@@ -74,6 +75,7 @@
                 android:drawableStart="@drawable/ic_person_gray"
                 android:drawablePadding="10dp"
                 android:hint="Name"
+                android:fontFamily="@font/roboto_slab"
                 android:textColor="@color/black"
                 android:textColorHint="@color/gray1"
                 android:padding="15dp"
@@ -90,10 +92,12 @@
             android:layout_below="@id/nameTil"
             android:layout_marginTop="20dp"
             android:padding="10dp"
+            app:backgroundTint="@null"
             android:background="@drawable/shape_button01"
             android:text="Update Info"
             android:textColor="@color/white"
-            android:textAllCaps="false"
+            android:textAllCaps="true"
+            android:textSize="18sp"
             />
 
     </RelativeLayout>
